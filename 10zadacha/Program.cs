@@ -2,7 +2,7 @@
 // int number = new Random().Next(-999, 1000);
 // Console.WriteLine($"Наше случайное число = {number}");
 // выше указан метод с рандомным трехзначным числом от - 999 дод 999
-Console.WriteLine("Введите число");
+Console.WriteLine("Введите трёхзначное число");
 int number = Convert.ToInt32(Console.ReadLine());
 if(number < 0)// проверка на отрицательные числа
 {   number = number * (-1);
