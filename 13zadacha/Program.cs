@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите число");// поиск 3 цифры с начала любого целого числа
+﻿Console.WriteLine("Вывод 3 цифры числа, Введите число: ");// поиск 3 цифры с начала любого целого числа
 int number = Convert.ToInt32(Console.ReadLine());
 if(number < 0)
 {
